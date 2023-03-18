@@ -3,3 +3,4 @@ sw/cube/adsr_vca_fx
 sw/cube/adsr_vca_m4
 !sw/cube/adsr_vca_m4/adsr_vca_m4.pdf
 hw/adsr_vca_fx/adsr_vca_fx-backups
+sw/adsr_libs/earlevel_ADSR/adsr
