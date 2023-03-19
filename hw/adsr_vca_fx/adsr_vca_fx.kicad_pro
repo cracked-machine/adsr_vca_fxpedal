@@ -368,16 +368,16 @@
       "SMPS"
     ],
     [
-      "ab6051dd-1e91-41b0-9626-1a0c8a82c077",
-      "Voltage Inverter"
-    ],
-    [
       "2b12c81b-590f-42b3-a93e-f9019ce43b66",
       "LDO 3.3V"
     ],
     [
       "7f56a6d0-e9ac-40b5-a9da-5532f531790a",
       "PolarityProtection"
+    ],
+    [
+      "8209921e-d4bf-4a54-a276-7037229ad038",
+      "TPS60403 Parallel "
     ]
   ],
   "text_variables": {}
