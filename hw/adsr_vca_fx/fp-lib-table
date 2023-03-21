@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "128x64_0_96InchOLED")(type "KiCad")(uri "${KIPRJMOD}/../KicadLibrary/footprint/DISPLAYS/128x64_0_96InchOLED.pretty")(options "")(descr ""))
+)
