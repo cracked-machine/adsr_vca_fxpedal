@@ -418,9 +418,13 @@
     (uuid f323b59d-1d52-42b4-8a0c-6221bf6058f6)
   )
 
-  (text "See \"Audio Signal Mixing\"" (at 81.28 27.94 0)
+  (text "Link: \"Audio Signal Mixing\"" (at 137.16 46.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://sound-au.com/articles/audio-mixing.htm#s3"))
     (uuid 0bf57778-cc11-486c-9d6e-0e345fa0584c)
+  )
+  (text "Active Mixer" (at 137.16 44.45 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 60fcad54-8cf1-4023-966f-cbacb5599063)
   )
 
   (label "audio_in1" (at 102.87 67.31 180) (fields_autoplaced)
@@ -757,7 +761,7 @@
     (property "Reference" "J6" (at 254 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x02" (at 254 71.12 0)
+    (property "Value" "Audio Output" (at 254 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 254 76.2 0)
