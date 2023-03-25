@@ -448,7 +448,7 @@
   (symbol (lib_id "Device:R") (at 143.51 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0948f3a7-3f61-4393-b62a-169f6031a350)
-    (property "Reference" "R2" (at 143.51 97.79 90)
+    (property "Reference" "R3" (at 143.51 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 143.51 100.33 90)
@@ -465,7 +465,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -474,7 +474,7 @@
   (symbol (lib_id "Device:R") (at 143.51 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15ffbede-4c20-4e95-a6bb-3af72bf50cb8)
-    (property "Reference" "R1" (at 143.51 68.58 90)
+    (property "Reference" "R2" (at 143.51 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 143.51 71.12 90)
@@ -491,7 +491,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -500,7 +500,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 120.65 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 372b833f-c8d4-46d2-88a9-7b90c4fb5022)
-    (property "Reference" "RV9" (at 115.57 128.27 0)
+    (property "Reference" "RV4" (at 115.57 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PTV09A-4220F-B104" (at 106.68 132.08 0)
@@ -518,7 +518,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "RV9") (unit 1)
+          (reference "RV4") (unit 1)
         )
       )
     )
@@ -527,7 +527,7 @@
   (symbol (lib_id "Device:R") (at 182.88 73.66 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38a40ca8-11fc-4c02-b81e-25ab1daeece5)
-    (property "Reference" "R3" (at 182.88 78.74 90)
+    (property "Reference" "R5" (at 182.88 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 182.88 76.2 90)
@@ -544,7 +544,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -553,7 +553,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 120.65 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4704202f-14c1-410c-9c4b-e3e9f398e751)
-    (property "Reference" "RV1" (at 115.57 71.12 0)
+    (property "Reference" "RV2" (at 115.57 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PTV09A-4220F-B104" (at 106.68 74.93 0)
@@ -571,7 +571,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "RV1") (unit 1)
+          (reference "RV2") (unit 1)
         )
       )
     )
@@ -580,7 +580,7 @@
   (symbol (lib_id "power:GND") (at 240.03 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6313d273-fd3f-4eee-a2cf-43b84a5441ef)
-    (property "Reference" "#PWR025" (at 240.03 93.98 0)
+    (property "Reference" "#PWR022" (at 240.03 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 92.71 0)
@@ -596,7 +596,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -605,7 +605,7 @@
   (symbol (lib_id "power:GND") (at 120.65 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6892dd43-718b-4a7a-b17d-a7602067b426)
-    (property "Reference" "#PWR026" (at 120.65 146.05 0)
+    (property "Reference" "#PWR020" (at 120.65 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 144.78 0)
@@ -621,7 +621,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -630,7 +630,7 @@
   (symbol (lib_id "power:GND") (at 120.65 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aa4fb32-955e-40b5-9ed7-ee84b7ec9920)
-    (property "Reference" "#PWR019" (at 120.65 86.36 0)
+    (property "Reference" "#PWR018" (at 120.65 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 85.09 0)
@@ -646,7 +646,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -655,7 +655,7 @@
   (symbol (lib_id "power:GND") (at 158.75 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88542778-e134-4737-b840-81e997613145)
-    (property "Reference" "#PWR023" (at 158.75 68.58 0)
+    (property "Reference" "#PWR021" (at 158.75 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.75 67.31 0)
@@ -671,7 +671,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -680,7 +680,7 @@
   (symbol (lib_id "power:GND") (at 120.65 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a82d83f1-ef76-4264-87fa-d3fdb238560c)
-    (property "Reference" "#PWR024" (at 120.65 116.84 0)
+    (property "Reference" "#PWR019" (at 120.65 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 115.57 0)
@@ -696,7 +696,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -705,7 +705,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 120.65 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b475c73c-917b-47fd-88c6-6d0c44af0348)
-    (property "Reference" "RV2" (at 115.57 100.33 0)
+    (property "Reference" "RV3" (at 115.57 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PTV09A-4220F-B104" (at 106.68 104.14 0)
@@ -723,7 +723,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "RV2") (unit 1)
+          (reference "RV3") (unit 1)
         )
       )
     )
@@ -758,7 +758,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 254 76.2 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f86e5cc5-514f-4e7c-9ec1-90fdd926359d)
-    (property "Reference" "J6" (at 254 68.58 0)
+    (property "Reference" "J5" (at 254 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Audio Output" (at 254 71.12 0)
@@ -775,7 +775,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/8aff0c69-c651-470d-bd06-2b6725b28795"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )

@@ -718,7 +718,7 @@
     (property "Value" "1K" (at 153.67 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" (at 153.67 119.38 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (at 153.67 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 119.38 0)
@@ -736,7 +736,7 @@
           (reference "RV8") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/0d7fbd8f-e081-47cd-87b5-dfbc75ed6757"
-          (reference "RV10") (unit 1)
+          (reference "RV1") (unit 1)
         )
       )
     )
@@ -770,7 +770,7 @@
   (symbol (lib_id "power:GND") (at 82.55 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52dd78bb-d425-42f6-8dad-84702708175a)
-    (property "Reference" "#PWR010" (at 82.55 86.36 0)
+    (property "Reference" "#PWR012" (at 82.55 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 85.09 0)
@@ -786,7 +786,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/0d7fbd8f-e081-47cd-87b5-dfbc75ed6757"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -839,7 +839,7 @@
           (reference "#PWR050") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/0d7fbd8f-e081-47cd-87b5-dfbc75ed6757"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -868,7 +868,7 @@
           (reference "R13") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/0d7fbd8f-e081-47cd-87b5-dfbc75ed6757"
-          (reference "R21") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -905,7 +905,7 @@
     (property "Reference" "C27" (at 120.65 172.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 120.65 174.625 0)
+    (property "Value" "1uF" (at 120.65 174.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 117.8052 176.53 0)
@@ -950,7 +950,7 @@
           (reference "#PWR058") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/0d7fbd8f-e081-47cd-87b5-dfbc75ed6757"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1042,7 +1042,7 @@
   (symbol (lib_id "power:+3.3V") (at 102.87 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd44ff7e-c7e9-4710-a0b1-d59888e8f576)
-    (property "Reference" "#PWR014" (at 102.87 165.1 0)
+    (property "Reference" "#PWR013" (at 102.87 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 102.87 157.48 0)
@@ -1058,7 +1058,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/0d7fbd8f-e081-47cd-87b5-dfbc75ed6757"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )

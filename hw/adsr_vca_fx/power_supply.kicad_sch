@@ -837,15 +837,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9b1719c4-9608-4c9e-9949-52fd3ad72c62)
   )
-  (text "Place close to U6 pins" (at 53.34 156.21 0)
+  (text "Place close to U1 pins" (at 53.34 156.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b21ae8f2-d451-4fff-8caa-478a0ea8d48a)
   )
 
-  (label "+12V" (at 143.51 69.85 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 48ea256c-8003-4046-abd7-a9483ab3653a)
-  )
   (label "+5V" (at 143.51 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 63a5b086-b617-484b-a2e2-1bf55366504e)
@@ -855,19 +851,19 @@
     (uuid daae25f3-877c-4a27-b4ec-47d2fca29c7b)
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 236.22 110.49 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 236.22 113.03 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f4c7d76-78c7-4b8c-aef0-939e40b6d26b)
-    (property "Reference" "J3" (at 237.49 107.95 0)
+    (property "Reference" "J3" (at 237.49 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_02x02_Odd_Even" (at 237.49 107.95 0)
+    (property "Value" "Conn_02x02_Odd_Even" (at 237.49 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 236.22 110.49 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" (at 236.22 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 236.22 110.49 0)
+    (property "Datasheet" "~" (at 236.22 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b55ce511-bc99-458b-a2c4-38a88876b485))
@@ -886,7 +882,7 @@
   (symbol (lib_id "power:VDDA") (at 270.51 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f891e8c-0b3a-4c60-b1f8-f080ca1c65f2)
-    (property "Reference" "#PWR07" (at 270.51 71.12 0)
+    (property "Reference" "#PWR010" (at 270.51 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 270.51 63.5 0)
@@ -902,7 +898,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -930,7 +926,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -939,7 +935,7 @@
   (symbol (lib_id "power:GND") (at 80.01 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71e42dda-095d-403f-b72b-e91c251f81b5)
-    (property "Reference" "#PWR012" (at 80.01 186.69 0)
+    (property "Reference" "#PWR07" (at 80.01 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 185.42 0)
@@ -955,7 +951,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/0d7fbd8f-e081-47cd-87b5-dfbc75ed6757"
           (reference "#PWR013") (unit 1)
@@ -1021,7 +1017,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1111,7 +1107,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 40.64 35.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8ed8234-097d-4756-ae25-29597804517b)
-    (property "Reference" "#FLG09" (at 42.545 35.56 0)
+    (property "Reference" "#FLG02" (at 42.545 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 44.45 35.56 0)
@@ -1127,7 +1123,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#FLG09") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -1136,7 +1132,7 @@
   (symbol (lib_id "power:+3.3V") (at 270.51 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aab335f8-5c6d-486e-815f-8e06dab05abf)
-    (property "Reference" "#PWR08" (at 270.51 149.86 0)
+    (property "Reference" "#PWR011" (at 270.51 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 270.51 142.24 0)
@@ -1152,7 +1148,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1186,7 +1182,7 @@
   (symbol (lib_id "power:VSSA") (at 269.24 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8330da1-7b56-4ca3-a62e-54654812f8d9)
-    (property "Reference" "#PWR06" (at 269.24 114.3 0)
+    (property "Reference" "#PWR09" (at 269.24 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSSA" (at 269.24 106.68 0)
@@ -1202,7 +1198,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1211,7 +1207,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 48.26 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0a0c1f8-745a-4d04-b15a-96bf67680e92)
-    (property "Reference" "#FLG05" (at 50.165 33.02 0)
+    (property "Reference" "#FLG03" (at 50.165 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 52.07 33.02 0)
@@ -1227,7 +1223,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -1286,7 +1282,7 @@
   (symbol (lib_id "power:VSS") (at 226.06 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4b849ce-7175-48cb-8b15-4fbf3f42f2bc)
-    (property "Reference" "#PWR05" (at 226.06 111.76 0)
+    (property "Reference" "#PWR08" (at 226.06 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSS" (at 226.06 104.14 0)
@@ -1302,7 +1298,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1340,7 +1336,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 270.51 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0b32b00-2929-466c-a8cb-658e00a3349f)
-    (property "Reference" "#FLG03" (at 272.415 69.85 0)
+    (property "Reference" "#FLG05" (at 272.415 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 274.32 69.85 0)
@@ -1356,7 +1352,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG05") (unit 1)
         )
       )
     )
@@ -1371,7 +1367,7 @@
     (property "Value" "Conn_02x02_Odd_Even" (at 236.22 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 234.95 69.85 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" (at 234.95 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 69.85 0)
@@ -1418,7 +1414,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 40.64 30.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1a60042-0149-4842-9621-da20d6630794)
-    (property "Reference" "#FLG08" (at 42.545 30.48 0)
+    (property "Reference" "#FLG01" (at 42.545 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 44.45 30.48 0)
@@ -1434,7 +1430,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790"
-          (reference "#FLG08") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )

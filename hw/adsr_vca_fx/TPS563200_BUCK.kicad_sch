@@ -475,10 +475,6 @@
     (stroke (width 0) (type default))
     (uuid 18e95a1d-9d1d-4b93-8e4c-2d03c344acc0)
   )
-  (wire (pts (xy 57.15 81.28) (xy 57.15 78.74))
-    (stroke (width 0) (type default))
-    (uuid 1a734ace-0cd0-489a-9380-915322ff12bd)
-  )
   (wire (pts (xy 173.99 81.28) (xy 205.74 81.28))
     (stroke (width 0) (type default))
     (uuid 1b68eef9-7480-4dc4-8b19-f8976dd45952)
@@ -640,7 +636,7 @@
   (symbol (lib_id "Regulator_Switching:TPS563200") (at 105.41 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060bd5c0d)
-    (property "Reference" "U8" (at 105.41 74.4982 0)
+    (property "Reference" "U6" (at 105.41 74.4982 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS563200" (at 105.41 76.8096 0)
@@ -667,7 +663,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "U8") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -676,7 +672,7 @@
   (symbol (lib_id "Device:C") (at 57.15 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060bd6867)
-    (property "Reference" "C18" (at 52.07 89.535 0)
+    (property "Reference" "C16" (at 52.07 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF 20V X5R" (at 40.64 95.885 0)
@@ -699,7 +695,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "C18") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -708,7 +704,7 @@
   (symbol (lib_id "Device:C") (at 69.85 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060bd7269)
-    (property "Reference" "C19" (at 71.755 89.535 0)
+    (property "Reference" "C17" (at 71.755 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF 20V X5R" (at 71.755 95.885 0)
@@ -731,7 +727,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "C19") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -772,7 +768,7 @@
   (symbol (lib_id "Device:C") (at 133.35 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c2b2aa)
-    (property "Reference" "C20" (at 128.905 85.725 90)
+    (property "Reference" "C18" (at 128.905 85.725 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 138.43 85.725 90)
@@ -795,7 +791,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "C20") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -804,7 +800,7 @@
   (symbol (lib_id "Device:R") (at 173.99 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c2d3ae)
-    (property "Reference" "R24" (at 175.768 86.4616 0)
+    (property "Reference" "R21" (at 175.768 86.4616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "56K" (at 175.768 88.773 0)
@@ -827,7 +823,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "R24") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -836,7 +832,7 @@
   (symbol (lib_id "Device:R") (at 173.99 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c2da69)
-    (property "Reference" "R25" (at 175.768 100.4316 0)
+    (property "Reference" "R22" (at 175.768 100.4316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 175.768 102.743 0)
@@ -859,7 +855,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "R25") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -868,7 +864,7 @@
   (symbol (lib_id "Device:C") (at 205.74 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c31aeb)
-    (property "Reference" "C21" (at 202.565 90.805 0)
+    (property "Reference" "C19" (at 202.565 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF 10V X5R" (at 191.135 97.155 0)
@@ -891,7 +887,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "C21") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -900,7 +896,7 @@
   (symbol (lib_id "Device:C") (at 226.06 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c31af1)
-    (property "Reference" "C22" (at 222.885 90.805 0)
+    (property "Reference" "C20" (at 222.885 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF 10V X5R" (at 211.455 97.155 0)
@@ -923,7 +919,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "C22") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -932,7 +928,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 226.06 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c3b029)
-    (property "Reference" "TP10" (at 227.5332 76.9112 0)
+    (property "Reference" "TP8" (at 227.5332 76.9112 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 227.5332 78.0542 0)
@@ -954,38 +950,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "TP10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 57.15 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000060c3c725)
-    (property "Reference" "TP9" (at 58.6232 76.9112 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 58.6232 78.0542 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 62.23 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 62.23 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LcscNo" "~" (at 57.15 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "~" (at 57.15 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c4d478b4-b5a6-43c6-843f-26702f99ff1d))
-    (instances
-      (project "adsr_vca_fx"
-        (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "TP9") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -1026,7 +991,7 @@
   (symbol (lib_id "Device:R") (at 237.49 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c4d852)
-    (property "Reference" "R26" (at 239.268 102.9716 0)
+    (property "Reference" "R23" (at 239.268 102.9716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K2" (at 239.268 105.283 0)
@@ -1049,7 +1014,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "R26") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1058,7 +1023,7 @@
   (symbol (lib_id "power:GND") (at 105.41 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c2039e5-e783-465c-8303-ccf1f8db0849)
-    (property "Reference" "#PWR064" (at 105.41 127 0)
+    (property "Reference" "#PWR066" (at 105.41 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 125.73 0)
@@ -1074,7 +1039,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -1102,7 +1067,7 @@
           (reference "#FLG08") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/cfda1149-d0fd-45bd-b9f5-d59eb44c2b04"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG06") (unit 1)
         )
       )
     )

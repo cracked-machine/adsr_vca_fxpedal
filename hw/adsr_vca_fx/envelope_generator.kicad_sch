@@ -1483,7 +1483,7 @@
   (symbol (lib_id "power:GND") (at 154.94 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05e7b933-4595-401a-bcfa-70494ec7d8d8)
-    (property "Reference" "#PWR034" (at 154.94 101.6 0)
+    (property "Reference" "#PWR033" (at 154.94 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 100.33 0)
@@ -1499,7 +1499,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1508,7 +1508,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 146.05 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07608640-65a7-442b-904d-c1f557dfeadf)
-    (property "Reference" "JP3" (at 143.51 158.115 90)
+    (property "Reference" "JP2" (at 143.51 158.115 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Bridged12" (at 143.51 159.385 90)
@@ -1526,7 +1526,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "JP3") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -1535,7 +1535,7 @@
   (symbol (lib_id "Device:C") (at 124.46 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b9437f5-1237-47cd-8fea-761583b4d5d4)
-    (property "Reference" "C11" (at 125.73 161.29 0)
+    (property "Reference" "C9" (at 125.73 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uf" (at 125.73 166.37 0)
@@ -1552,7 +1552,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "C11") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1561,7 +1561,7 @@
   (symbol (lib_id "Device:C") (at 73.66 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17ff7d12-243c-43b4-9280-3d05c569db34)
-    (property "Reference" "C7" (at 74.93 161.29 0)
+    (property "Reference" "C5" (at 74.93 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nf" (at 74.93 166.37 0)
@@ -1578,7 +1578,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "C7") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1587,7 +1587,7 @@
   (symbol (lib_id "power:+3.3V") (at 85.09 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d1f1f49-72dc-4fb8-afe2-c12ff7f871a3)
-    (property "Reference" "#PWR029" (at 85.09 154.94 0)
+    (property "Reference" "#PWR026" (at 85.09 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 85.09 147.32 0)
@@ -1603,7 +1603,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1612,7 +1612,7 @@
   (symbol (lib_id "Device:R") (at 146.05 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20b3dcd2-9769-4465-a80d-146c91437735)
-    (property "Reference" "R5" (at 148.59 167.005 0)
+    (property "Reference" "R6" (at 148.59 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 148.59 169.545 0)
@@ -1629,7 +1629,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1638,7 +1638,7 @@
   (symbol (lib_id "power:GND") (at 120.65 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21e08083-1e2b-4b1c-9804-58bd602949e6)
-    (property "Reference" "#PWR032" (at 120.65 182.88 0)
+    (property "Reference" "#PWR029" (at 120.65 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 181.61 0)
@@ -1654,7 +1654,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1663,7 +1663,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 38.1 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2afeb42c-aa4a-4a15-a711-4420f7b6997c)
-    (property "Reference" "J8" (at 39.37 156.21 0)
+    (property "Reference" "J6" (at 39.37 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x05_Odd_Even" (at 39.37 157.48 0)
@@ -1688,7 +1688,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "J8") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1697,7 +1697,7 @@
   (symbol (lib_id "power:GND") (at 146.05 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30a577d0-f1f7-4863-b2ab-ad220e59f6d3)
-    (property "Reference" "#PWR036" (at 146.05 182.88 0)
+    (property "Reference" "#PWR031" (at 146.05 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 181.61 0)
@@ -1713,7 +1713,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1722,7 +1722,7 @@
   (symbol (lib_id "Device:C") (at 116.84 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 427e872f-8d4f-41b9-8cea-81e37e133bd4)
-    (property "Reference" "C10" (at 118.11 161.29 0)
+    (property "Reference" "C8" (at 118.11 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nf" (at 118.11 166.37 0)
@@ -1739,7 +1739,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "C10") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1748,7 +1748,7 @@
   (symbol (lib_id "MCU_ST_STM32L4:STM32L432KBUx") (at 154.94 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a3dc0ee-c95e-4233-bf62-eba223b20c88)
-    (property "Reference" "U5" (at 133.35 83.82 0)
+    (property "Reference" "U3" (at 133.35 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32L432KBUx" (at 127 86.36 0)
@@ -1796,7 +1796,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1805,7 +1805,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 39.37 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61c110ad-5b49-4f53-bb07-fb5ca99dfa8f)
-    (property "Reference" "SW3" (at 39.37 67.31 0)
+    (property "Reference" "SW1" (at 39.37 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 39.37 68.58 0)
@@ -1822,7 +1822,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "SW3") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -1831,7 +1831,7 @@
   (symbol (lib_id "power:+3.3V") (at 24.13 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76ff5374-de83-4373-bd77-d31d7ad5c0e5)
-    (property "Reference" "#PWR027" (at 24.13 156.21 0)
+    (property "Reference" "#PWR023" (at 24.13 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 24.13 148.59 0)
@@ -1847,7 +1847,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1856,7 +1856,7 @@
   (symbol (lib_id "power:+3.3V") (at 152.4 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 808e995a-12d6-4800-aab6-bbe027d77d00)
-    (property "Reference" "#PWR033" (at 152.4 35.56 0)
+    (property "Reference" "#PWR032" (at 152.4 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 152.4 27.94 0)
@@ -1872,7 +1872,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1881,7 +1881,7 @@
   (symbol (lib_id "power:GND") (at 24.13 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83263f2b-a3ee-4d32-aea2-1d57a39d2580)
-    (property "Reference" "#PWR028" (at 24.13 181.61 0)
+    (property "Reference" "#PWR024" (at 24.13 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 180.34 0)
@@ -1897,7 +1897,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1906,7 +1906,7 @@
   (symbol (lib_id "power:+3.3V") (at 120.65 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84e7add3-8537-49b4-9b54-6e60293090f1)
-    (property "Reference" "#PWR031" (at 120.65 154.94 0)
+    (property "Reference" "#PWR028" (at 120.65 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 120.65 147.32 0)
@@ -1922,7 +1922,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1957,7 +1957,7 @@
   (symbol (lib_id "power:+3.3V") (at 146.05 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f88beaf-b09e-4088-9922-24b8eed28dd2)
-    (property "Reference" "#PWR035" (at 146.05 154.94 0)
+    (property "Reference" "#PWR030" (at 146.05 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 146.05 147.32 0)
@@ -1973,7 +1973,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1982,7 +1982,7 @@
   (symbol (lib_id "power:GND") (at 85.09 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b13a3e3c-bdab-4052-aa6d-921920ed05d4)
-    (property "Reference" "#PWR030" (at 85.09 182.88 0)
+    (property "Reference" "#PWR027" (at 85.09 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 181.61 0)
@@ -1998,7 +1998,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2115,7 +2115,7 @@
   (symbol (lib_id "Device:C") (at 97.79 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd3dfb6c-ce7f-47a7-ae8e-e2bc1c6c2c0d)
-    (property "Reference" "C9" (at 99.06 161.29 0)
+    (property "Reference" "C7" (at 99.06 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uf" (at 99.06 166.37 0)
@@ -2132,7 +2132,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2141,7 +2141,7 @@
   (symbol (lib_id "power:+3.3V") (at 29.21 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cea50e51-9f46-4dbf-be56-26777c428a2e)
-    (property "Reference" "#PWR020" (at 29.21 69.85 0)
+    (property "Reference" "#PWR025" (at 29.21 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 29.21 62.23 0)
@@ -2157,7 +2157,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2166,7 +2166,7 @@
   (symbol (lib_id "Device:C") (at 85.09 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0aa89fd-a5dd-46a8-bec2-163318bb6328)
-    (property "Reference" "C8" (at 86.36 161.29 0)
+    (property "Reference" "C6" (at 86.36 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nf" (at 86.36 166.37 0)
@@ -2183,7 +2183,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/1d3f5b6b-6d64-41ce-b32c-1d62b69c11ca"
-          (reference "C8") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )

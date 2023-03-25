@@ -1545,7 +1545,7 @@
   (symbol (lib_id "Device:R") (at 247.65 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 001d58be-8a35-4067-aa9d-08fee6e93d2d)
-    (property "Reference" "R17" (at 243.84 105.41 0)
+    (property "Reference" "R18" (at 243.84 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30K" (at 243.84 107.95 0)
@@ -1562,7 +1562,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1571,7 +1571,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 368.3 102.87 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 017f4172-74db-489e-8b56-433792537324)
-    (property "Reference" "J12" (at 368.3 95.25 0)
+    (property "Reference" "J9" (at 368.3 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VCA1 Extern" (at 368.3 97.79 0)
@@ -1588,7 +1588,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "J12") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1597,7 +1597,7 @@
   (symbol (lib_id "Amplifier_Operational:LM13700") (at 256.54 205.74 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06206be9-592c-4644-9a59-9845d47bd88f)
-    (property "Reference" "U6" (at 254 199.39 0)
+    (property "Reference" "U4" (at 254 199.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM13700" (at 255.27 210.82 0)
@@ -1628,7 +1628,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "U6") (unit 4)
+          (reference "U4") (unit 4)
         )
       )
     )
@@ -1660,7 +1660,7 @@
           (reference "C9") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "C14") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1669,7 +1669,7 @@
   (symbol (lib_id "power:VDDA") (at 182.88 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09003a6f-22a4-4c20-a314-e316361b64ee)
-    (property "Reference" "#PWR045" (at 182.88 49.53 0)
+    (property "Reference" "#PWR042" (at 182.88 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 182.88 41.91 0)
@@ -1685,7 +1685,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1714,7 +1714,7 @@
           (reference "C25") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "C12") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1723,7 +1723,7 @@
   (symbol (lib_id "power:GND") (at 208.28 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11841a5d-2108-4420-a860-7a6af0e694cd)
-    (property "Reference" "#PWR049" (at 208.28 181.61 0)
+    (property "Reference" "#PWR046" (at 208.28 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 179.07 0)
@@ -1739,7 +1739,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -1768,7 +1768,7 @@
           (reference "C26") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "C13") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1777,7 +1777,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 270.51 152.4 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 144a3597-16c6-4ee5-bfb3-8ba7ea9769ad)
-    (property "Reference" "J11" (at 270.51 144.78 0)
+    (property "Reference" "J7" (at 270.51 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Envelope2 Extern" (at 270.51 147.32 0)
@@ -1794,7 +1794,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "J11") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -1803,13 +1803,13 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 226.06 162.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e4852f9-9287-4577-8a72-636e1a5008a2)
-    (property "Reference" "RV7" (at 226.06 160.02 90)
+    (property "Reference" "RV9" (at 226.06 160.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 226.06 162.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" (at 226.06 162.56 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (at 226.06 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 226.06 162.56 0)
@@ -1827,7 +1827,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "RV7") (unit 1)
+          (reference "RV9") (unit 1)
         )
       )
     )
@@ -1836,7 +1836,7 @@
   (symbol (lib_id "power:GND") (at 260.35 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1edd7913-c8ae-4fe9-b6b2-36185c109f62)
-    (property "Reference" "#PWR070" (at 260.35 167.64 0)
+    (property "Reference" "#PWR050" (at 260.35 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 166.37 0)
@@ -1852,7 +1852,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -1861,7 +1861,7 @@
   (symbol (lib_id "power:VSSA") (at 143.51 261.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 220917cb-353a-40c5-991f-54528f7c2294)
-    (property "Reference" "#PWR041" (at 143.51 257.81 0)
+    (property "Reference" "#PWR038" (at 143.51 257.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSSA" (at 143.51 266.7 0)
@@ -1877,7 +1877,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1886,7 +1886,7 @@
   (symbol (lib_id "Device:R") (at 106.68 246.38 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23b694de-4f16-49db-9f34-f5257b59f95f)
-    (property "Reference" "R7" (at 110.49 245.11 0)
+    (property "Reference" "R8" (at 110.49 245.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "13k" (at 110.49 247.65 0)
@@ -1903,7 +1903,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1912,7 +1912,7 @@
   (symbol (lib_id "Device:R") (at 208.28 170.18 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29eedd1e-1a16-4705-8ad2-73c7ba51cb6b)
-    (property "Reference" "R12" (at 212.09 168.91 0)
+    (property "Reference" "R13" (at 212.09 168.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 212.09 171.45 0)
@@ -1929,7 +1929,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1957,7 +1957,7 @@
           (reference "TP2") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "TP6") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -1985,7 +1985,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "TP7") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -1994,7 +1994,7 @@
   (symbol (lib_id "power:VSSA") (at 262.89 222.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31cafffc-378c-4843-96c7-4a6108e59621)
-    (property "Reference" "#PWR054" (at 262.89 218.44 0)
+    (property "Reference" "#PWR052" (at 262.89 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSSA" (at 262.89 227.33 0)
@@ -2010,7 +2010,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -2019,7 +2019,7 @@
   (symbol (lib_id "Amplifier_Operational:LM13700") (at 232.41 97.79 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 364eeca6-92eb-42e3-b44e-df5da8a0722a)
-    (property "Reference" "U6" (at 232.41 88.9 0)
+    (property "Reference" "U4" (at 232.41 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM13700" (at 232.41 91.44 0)
@@ -2050,7 +2050,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "U6") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2059,13 +2059,13 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 228.6 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ed6516e-00ab-4668-872a-00df04d6e8fa)
-    (property "Reference" "RV8" (at 228.6 50.8 90)
+    (property "Reference" "RV10" (at 228.6 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 228.6 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" (at 228.6 53.34 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (at 228.6 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 228.6 53.34 0)
@@ -2080,7 +2080,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "RV8") (unit 1)
+          (reference "RV10") (unit 1)
         )
       )
     )
@@ -2089,7 +2089,7 @@
   (symbol (lib_id "power:VSSA") (at 180.34 170.18 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 422fa073-c77b-42c9-bef6-2ff436888dcb)
-    (property "Reference" "#PWR044" (at 180.34 166.37 0)
+    (property "Reference" "#PWR041" (at 180.34 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSSA" (at 180.34 175.26 0)
@@ -2105,7 +2105,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -2114,7 +2114,7 @@
   (symbol (lib_id "Device:R") (at 245.11 185.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47e732d2-c666-4885-ab56-a3655c8956a6)
-    (property "Reference" "R14" (at 248.92 184.15 0)
+    (property "Reference" "R15" (at 248.92 184.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30K" (at 248.92 186.69 0)
@@ -2131,7 +2131,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R14") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2140,7 +2140,7 @@
   (symbol (lib_id "power:VDDA") (at 143.51 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f77c0ef-08f5-4fc4-9b08-eb420017a8c3)
-    (property "Reference" "#PWR040" (at 143.51 241.3 0)
+    (property "Reference" "#PWR037" (at 143.51 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 143.51 233.68 0)
@@ -2156,7 +2156,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -2165,7 +2165,7 @@
   (symbol (lib_id "power:GND") (at 245.11 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55a372e3-d4d9-4fce-9fa8-d9f4822139c4)
-    (property "Reference" "#PWR051" (at 245.11 228.6 0)
+    (property "Reference" "#PWR048" (at 245.11 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 227.33 0)
@@ -2181,7 +2181,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -2190,7 +2190,7 @@
   (symbol (lib_id "power:GND") (at 358.14 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 594e1fe0-75c6-421b-9fe9-41e01ad05b55)
-    (property "Reference" "#PWR018" (at 358.14 118.11 0)
+    (property "Reference" "#PWR054" (at 358.14 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 358.14 116.84 0)
@@ -2206,7 +2206,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -2215,7 +2215,7 @@
   (symbol (lib_id "Amplifier_Operational:LM13700") (at 76.2 248.92 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60cebfd4-40ea-4f52-9f1b-7409fdc9c8f9)
-    (property "Reference" "U6" (at 74.93 248.285 0)
+    (property "Reference" "U4" (at 74.93 248.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM13700" (at 74.93 250.825 0)
@@ -2246,7 +2246,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "U6") (unit 5)
+          (reference "U4") (unit 5)
         )
       )
     )
@@ -2255,7 +2255,7 @@
   (symbol (lib_id "Device:C") (at 171.45 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6475fee1-adfa-44cc-8681-86559d277233)
-    (property "Reference" "C16" (at 171.45 140.97 90)
+    (property "Reference" "C15" (at 171.45 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 171.45 143.51 90)
@@ -2272,7 +2272,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "C16") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -2307,7 +2307,7 @@
           (reference "U6") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "U7") (unit 2)
+          (reference "U5") (unit 2)
         )
       )
     )
@@ -2316,7 +2316,7 @@
   (symbol (lib_id "power:VDDA") (at 180.34 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a2c3fba-6e1b-480a-8316-7b0fc1251a34)
-    (property "Reference" "#PWR043" (at 180.34 161.29 0)
+    (property "Reference" "#PWR040" (at 180.34 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 180.34 153.67 0)
@@ -2332,7 +2332,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -2363,7 +2363,7 @@
           (reference "#PWR026") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -2372,7 +2372,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 273.05 43.18 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 799555c7-51dd-4195-945a-a4acf243bb0b)
-    (property "Reference" "J9" (at 273.05 35.56 0)
+    (property "Reference" "J8" (at 273.05 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Envelope1 Extern" (at 273.05 38.1 0)
@@ -2389,7 +2389,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "J9") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2417,7 +2417,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "TP8") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -2426,7 +2426,7 @@
   (symbol (lib_id "power:GND") (at 210.82 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87e7333e-e67b-4027-a4e9-33de3a392ade)
-    (property "Reference" "#PWR050" (at 210.82 72.39 0)
+    (property "Reference" "#PWR047" (at 210.82 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 69.85 0)
@@ -2442,7 +2442,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -2451,13 +2451,13 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 180.34 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8908bfda-3589-4246-ad04-fceab1bca9cc)
-    (property "Reference" "RV3" (at 177.8 163.195 0)
+    (property "Reference" "RV5" (at 177.8 163.195 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 177.8 165.735 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" (at 180.34 163.83 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (at 180.34 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 163.83 0)
@@ -2469,7 +2469,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "RV3") (unit 1)
+          (reference "RV5") (unit 1)
         )
       )
     )
@@ -2478,7 +2478,7 @@
   (symbol (lib_id "power:GND") (at 198.12 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d0e5179-d8d5-4b57-aaf9-a4eeb50b46c1)
-    (property "Reference" "#PWR048" (at 198.12 105.41 0)
+    (property "Reference" "#PWR045" (at 198.12 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 102.87 0)
@@ -2494,7 +2494,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -2503,7 +2503,7 @@
   (symbol (lib_id "Device:R") (at 210.82 60.96 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ece3ad7-e62e-4b40-b500-29fa5e5aa34b)
-    (property "Reference" "R13" (at 214.63 59.69 0)
+    (property "Reference" "R14" (at 214.63 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 214.63 62.23 0)
@@ -2520,7 +2520,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2529,13 +2529,13 @@
   (symbol (lib_id "Device:R_Potentiometer_Small") (at 204.47 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90e86d5a-a879-4532-8db8-e5c87037f4e5)
-    (property "Reference" "RV6" (at 205.74 96.52 0)
+    (property "Reference" "RV8" (at 205.74 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1K" (at 205.74 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" (at 204.47 97.79 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (at 204.47 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 97.79 0)
@@ -2547,7 +2547,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "RV6") (unit 1)
+          (reference "RV8") (unit 1)
         )
       )
     )
@@ -2556,7 +2556,7 @@
   (symbol (lib_id "power:VSSA") (at 73.66 264.16 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91d1d52c-17aa-462a-893f-d4e253618d4c)
-    (property "Reference" "#PWR039" (at 73.66 260.35 0)
+    (property "Reference" "#PWR036" (at 73.66 260.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSSA" (at 73.66 269.24 0)
@@ -2572,7 +2572,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -2581,7 +2581,7 @@
   (symbol (lib_id "power:GND") (at 262.89 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a08b909f-3a79-4702-a089-a945db85214e)
-    (property "Reference" "#PWR053" (at 262.89 58.42 0)
+    (property "Reference" "#PWR051" (at 262.89 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 57.15 0)
@@ -2597,7 +2597,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -2606,7 +2606,7 @@
   (symbol (lib_id "Device:R") (at 93.98 246.38 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a50550e8-3854-4edd-b36f-cdfe56e9bf86)
-    (property "Reference" "R6" (at 97.155 245.11 0)
+    (property "Reference" "R7" (at 97.155 245.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "13k" (at 97.79 247.65 0)
@@ -2623,7 +2623,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2632,7 +2632,7 @@
   (symbol (lib_id "Device:R") (at 195.58 45.72 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a78bcbbe-d9ed-486e-acfe-5884442791dc)
-    (property "Reference" "R10" (at 199.39 44.45 0)
+    (property "Reference" "R11" (at 199.39 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 199.39 46.99 0)
@@ -2649,7 +2649,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2658,7 +2658,7 @@
   (symbol (lib_id "power:VSSA") (at 182.88 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac092d09-9fd8-4a75-8590-d0c43acb0871)
-    (property "Reference" "#PWR046" (at 182.88 54.61 0)
+    (property "Reference" "#PWR043" (at 182.88 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSSA" (at 182.88 63.5 0)
@@ -2674,7 +2674,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -2683,7 +2683,7 @@
   (symbol (lib_id "Amplifier_Operational:LM13700") (at 259.08 97.79 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b54a5263-0bcf-427b-b573-10492d59e49e)
-    (property "Reference" "U6" (at 256.54 91.44 0)
+    (property "Reference" "U4" (at 256.54 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM13700" (at 256.54 102.87 0)
@@ -2714,7 +2714,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "U6") (unit 2)
+          (reference "U4") (unit 2)
         )
       )
     )
@@ -2723,7 +2723,7 @@
   (symbol (lib_id "Amplifier_Operational:LM13700") (at 229.87 205.74 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5cf28d0-c0ff-4b79-be53-ed56a89a8203)
-    (property "Reference" "U6" (at 229.87 196.85 0)
+    (property "Reference" "U4" (at 229.87 196.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM13700" (at 229.87 199.39 0)
@@ -2754,7 +2754,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "U6") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
     )
@@ -2763,7 +2763,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 368.3 210.82 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b60c4422-b408-44bc-8f1d-bca11d4ed6ba)
-    (property "Reference" "J5" (at 368.3 203.2 0)
+    (property "Reference" "J10" (at 368.3 203.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VCA2 Extern" (at 368.3 205.74 0)
@@ -2780,7 +2780,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "J5") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2808,7 +2808,7 @@
           (reference "#PWR057") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -2817,7 +2817,7 @@
   (symbol (lib_id "Device:R") (at 247.65 76.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd1d6130-7910-4228-87cb-10cd840e9e11)
-    (property "Reference" "R16" (at 251.46 74.93 0)
+    (property "Reference" "R17" (at 251.46 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30K" (at 251.46 77.47 0)
@@ -2834,7 +2834,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R16") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2843,7 +2843,7 @@
   (symbol (lib_id "power:GND") (at 358.14 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0447460-9865-43bf-9749-7eab369a10a4)
-    (property "Reference" "#PWR013" (at 358.14 226.06 0)
+    (property "Reference" "#PWR055" (at 358.14 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 358.14 224.79 0)
@@ -2859,7 +2859,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -2868,7 +2868,7 @@
   (symbol (lib_id "Device:R") (at 262.89 214.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5c552e1-011a-4a76-8f16-bc11c091ed5b)
-    (property "Reference" "R18" (at 266.7 213.36 0)
+    (property "Reference" "R19" (at 266.7 213.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5K" (at 266.7 215.9 0)
@@ -2885,7 +2885,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2923,7 +2923,7 @@
           (reference "U6") (unit 3)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "U7") (unit 3)
+          (reference "U5") (unit 3)
         )
       )
     )
@@ -2932,7 +2932,7 @@
   (symbol (lib_id "power:GND") (at 195.58 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca592f09-8d19-4d95-ab61-564bb3650d58)
-    (property "Reference" "#PWR047" (at 195.58 213.36 0)
+    (property "Reference" "#PWR044" (at 195.58 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 210.82 0)
@@ -2948,7 +2948,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -2957,7 +2957,7 @@
   (symbol (lib_id "power:GND") (at 247.65 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7d07e35-2028-4d37-9b2a-ebc045ad90c1)
-    (property "Reference" "#PWR052" (at 247.65 120.65 0)
+    (property "Reference" "#PWR049" (at 247.65 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 119.38 0)
@@ -2973,7 +2973,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -2982,13 +2982,13 @@
   (symbol (lib_id "Device:R_Potentiometer_Small") (at 201.93 205.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d883b786-85d6-440b-b014-4944109832e4)
-    (property "Reference" "RV5" (at 203.2 204.47 0)
+    (property "Reference" "RV7" (at 203.2 204.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1K" (at 203.2 207.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" (at 201.93 205.74 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (at 201.93 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 201.93 205.74 0)
@@ -3000,7 +3000,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "RV5") (unit 1)
+          (reference "RV7") (unit 1)
         )
       )
     )
@@ -3009,7 +3009,7 @@
   (symbol (lib_id "Device:R") (at 186.69 203.2 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9c22bf3-189f-49e5-949c-73587f211422)
-    (property "Reference" "R8" (at 186.69 200.66 90)
+    (property "Reference" "R9" (at 186.69 200.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30k" (at 186.69 198.12 90)
@@ -3026,7 +3026,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3035,7 +3035,7 @@
   (symbol (lib_id "Device:C") (at 171.45 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc5db10b-e594-4fc6-b985-156471102bfd)
-    (property "Reference" "C17" (at 171.45 31.75 90)
+    (property "Reference" "C14" (at 171.45 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 171.45 34.29 90)
@@ -3052,7 +3052,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "C17") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -3061,7 +3061,7 @@
   (symbol (lib_id "Device:R") (at 193.04 156.21 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e34c24e0-f436-4781-aa11-dffb43bea493)
-    (property "Reference" "R9" (at 196.85 154.94 0)
+    (property "Reference" "R10" (at 196.85 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 196.85 157.48 0)
@@ -3078,7 +3078,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3087,7 +3087,7 @@
   (symbol (lib_id "power:VDDA") (at 73.66 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e506b01a-bdab-4a41-a804-59dae751a032)
-    (property "Reference" "#PWR038" (at 73.66 237.49 0)
+    (property "Reference" "#PWR035" (at 73.66 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 73.66 229.87 0)
@@ -3103,7 +3103,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3112,7 +3112,7 @@
   (symbol (lib_id "Device:R") (at 265.43 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e94d2222-84f5-4a61-a551-acec09584f18)
-    (property "Reference" "R19" (at 269.24 105.41 0)
+    (property "Reference" "R20" (at 269.24 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5K" (at 269.24 107.95 0)
@@ -3129,7 +3129,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -3138,7 +3138,7 @@
   (symbol (lib_id "Device:R") (at 195.58 95.25 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid edcad5ec-5cdf-4bf7-acf6-42ca25f9fdc7)
-    (property "Reference" "R11" (at 195.58 92.71 90)
+    (property "Reference" "R12" (at 195.58 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30k" (at 195.58 95.25 90)
@@ -3155,7 +3155,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3164,13 +3164,13 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 182.88 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0025108-2d37-40c2-849e-ffc2677356b1)
-    (property "Reference" "RV4" (at 180.34 51.435 0)
+    (property "Reference" "RV6" (at 180.34 51.435 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 180.34 53.975 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" (at 182.88 52.07 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (at 182.88 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 52.07 0)
@@ -3182,7 +3182,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "RV4") (unit 1)
+          (reference "RV6") (unit 1)
         )
       )
     )
@@ -3217,7 +3217,7 @@
           (reference "U6") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "U7") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -3226,7 +3226,7 @@
   (symbol (lib_id "Device:R") (at 245.11 214.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5db20a8-6190-457d-a9c5-e150d27f8a9e)
-    (property "Reference" "R15" (at 248.92 213.36 0)
+    (property "Reference" "R16" (at 248.92 213.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30K" (at 248.92 215.9 0)
@@ -3243,7 +3243,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "R15") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3275,7 +3275,7 @@
           (reference "C10") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "C15") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3284,7 +3284,7 @@
   (symbol (lib_id "power:VSSA") (at 265.43 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9b0d930-81f2-4be2-8a92-bac4747c7aa6)
-    (property "Reference" "#PWR055" (at 265.43 110.49 0)
+    (property "Reference" "#PWR053" (at 265.43 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSSA" (at 265.43 119.38 0)
@@ -3300,7 +3300,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -3328,7 +3328,7 @@
           (reference "TP2") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/00108663-9f1e-44dc-8937-64b7d21ff823"
-          (reference "TP5") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )

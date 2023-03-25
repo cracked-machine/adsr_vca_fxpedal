@@ -604,7 +604,7 @@
   (symbol (lib_id "Device:R") (at 218.44 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00819d78-d54c-4867-8afd-8a6131edc881)
-    (property "Reference" "R31" (at 218.44 64.77 90)
+    (property "Reference" "R27" (at 218.44 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47R" (at 218.44 67.31 90)
@@ -621,7 +621,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "R31") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -630,7 +630,7 @@
   (symbol (lib_id "power:GND") (at 123.19 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a4af446-fb8e-475f-bfa2-354d3578047e)
-    (property "Reference" "#PWR071" (at 123.19 115.57 0)
+    (property "Reference" "#PWR069" (at 123.19 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 114.3 0)
@@ -646,7 +646,7 @@
     (instances
       (project "adsr_vca_fx"
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -729,7 +729,7 @@
           (reference "U?") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "U12") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -764,7 +764,7 @@
           (reference "R28") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "R20") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -796,7 +796,7 @@
           (reference "U?") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "U11") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -825,7 +825,7 @@
           (reference "C?") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "C33") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -854,7 +854,7 @@
           (reference "C?") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "C30") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -918,7 +918,7 @@
           (reference "C?") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "C29") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -952,7 +952,7 @@
           (reference "TP12") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "TP3") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )
@@ -981,7 +981,7 @@
           (reference "C?") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "C32") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1010,7 +1010,7 @@
           (reference "C?") (unit 1)
         )
         (path "/2c7cc946-dcca-4ffb-b6a0-bf0c9ddb491b/d2509004-b5c4-4b3c-af62-d7c90bd19790/8209921e-d4bf-4a54-a276-7037229ad038"
-          (reference "C31") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
