@@ -1685,7 +1685,7 @@
     (property "Value" "STM32L432KBUx" (at 127 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" (at 144.78 86.36 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias" (at 144.78 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l432kb.pdf" (at 154.94 63.5 0)
