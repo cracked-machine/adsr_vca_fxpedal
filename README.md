@@ -3,9 +3,9 @@ MCU generated ADSR envelope into a LM13700 OTA VCA
 
 ## Block diagram
 
-ADSR waveform is generated via [MCU DAC](docs/datasheet/stm32l432kb_datasheet.pdf) using software.
+ADSR waveform is generated via software running on a [microcontroller](docs/datasheet/stm32l432kb_datasheet.pdf) with built-in dual DAC.
 
-Input signal is ADSR-modulated using the [LM13700](docs/datasheet/lm13700.pdf) OTA chip in a `voltage controlled amplifier` confguration.
+Input signal is ADSR-modulated using the [LM13700](docs/datasheet/lm13700.pdf) OTA chip in a voltage controlled amplifier (VCA) confguration.
 
 Note, ADSR values - attack, decay, sustain and release - can be selected and then adjusted using the four potentiometers.  
 
