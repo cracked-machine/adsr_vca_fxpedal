@@ -176,6 +176,7 @@
         0.127,
         0.2,
         0.25,
+        0.4,
         0.5,
         1.0,
         2.0
@@ -532,10 +533,6 @@
       "OLED Display"
     ],
     [
-      "cfda1149-d0fd-45bd-b9f5-d59eb44c2b04",
-      "SMPS"
-    ],
-    [
       "2b12c81b-590f-42b3-a93e-f9019ce43b66",
       "LDO 3.3V"
     ],
@@ -544,8 +541,8 @@
       "PolarityProtection"
     ],
     [
-      "8209921e-d4bf-4a54-a276-7037229ad038",
-      "TPS60403 Parallel "
+      "7feb1279-87db-4909-8d20-ed70e78ee1c3",
+      "Dual Rail Regulated Charge Pump"
     ]
   ],
   "text_variables": {}
